@@ -113,12 +113,15 @@ public class QuizGUI extends JFrame {
             } 
         } 
     } 
+
+
  
     private void showResult() { 
-        JOptionPane.showMessageDialog(this, "Quiz completed. Your final score: " + score + 
-"/" + questions.size()); 
+        JOptionPane.showMessageDialog(this, "Quiz completed. Your final score: " + score + "/" + questions.size()); 
         System.exit(0); 
     } 
+
+
  
     public static void main(String[] args) { 
         SwingUtilities.invokeLater(() -> { 
